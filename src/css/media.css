@@ -1,0 +1,60 @@
+:root{
+    --max-width-size: 2000px;
+}
+
+@media(max-width:2560px){
+    body{
+        width: 100%;
+        height: 100%;
+     }
+}
+@media(max-width:1440px){
+    body{
+        width: 100%;
+        height: 100%;
+     }
+}
+@media(max-width:1024px){
+    body{
+       width: 100%;
+       height: 100%;
+    }
+}
+@media(max-width:950px){
+    .main .main-img{
+      max-width: 50rem;
+    }
+  }
+ 
+  @media(max-width:845px){
+    .main .main-img{
+      max-width: 50rem;
+    }
+  
+    .header .header-img{
+      max-width: 12rem
+    }
+  
+    .main{
+      flex-direction: column;
+    }
+  
+    .main .section-main{
+      text-align: center;
+    }
+  
+    .footer{
+      justify-content: center;
+    }
+  
+    .footer .social{
+      padding-left: 100px;
+    }
+  }
+
+  @media(max-width:768px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat center;
+        background-size: cover;
+    }
+  }

@@ -1,0 +1,106 @@
+html{
+    font-size: 62.5%;
+    background-color: hsl(257, 40%, 49%);
+}
+body{
+    background: url(../images/bg-desktop.svg) no-repeat left;
+    max-width: var(--max-width-size);
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header{
+   flex: 0;
+   padding: 30px 0 0 40px;
+
+}
+.header .header-img{
+   max-width: 20rem;
+   width: 100%;
+}
+.main{
+    display: flex;
+    color: #fff;
+    max-width: 100%;
+    padding: 6rem;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.main .main-img{
+    width: 100%;
+    height: auto;
+    max-width: 100rem;
+}
+.main .section-main{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    gap: 2.6rem;
+}
+.main .section-main h1{
+    text-transform: capitalize;
+    max-width: 550px;
+    font-size: 4rem;
+}
+.main .section-main p{
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 10px 0;
+}
+.main .section-main a span{
+    color: hsl(257, 40%, 49%);
+    display: inline-block;
+    font-weight: 500;
+    padding: 20px 60px;
+    border-radius: 80px;
+    background-color: #fff;
+    box-shadow: 0 3px 12px #000;
+    transition: 0.3s;
+}
+.main .section-main a span:hover{
+    color: hsl(300, 69%, 71%);
+    
+}
+
+.footer{
+    flex: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.footer .social ul{
+    margin: 0 10rem 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.footer .social ul i{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(2994%) hue-rotate(162deg) brightness(121%) contrast(100%);
+
+    padding: 20px;
+    text-align: center;
+    max-width: 15rem;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    
+}
+
+.footer .social ul i:hover{
+    filter: invert(85%) sepia(23%) saturate(4459%) hue-rotate(239deg) brightness(92%) contrast(97%);
+
+    color:hsl(300, 69%, 71%) ;
+}
